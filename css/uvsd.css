@@ -17,7 +17,7 @@ h1, h2, h3, p {
 }
 
 section {
-  padding: 100px;
+  padding: 64px;
 }
 
 .wrapper {
@@ -52,6 +52,7 @@ section {
   color: #fff;
   transition: 100ms;
   animation: more-btn-anim 3s infinite;
+  outline: none;
 }
 
 .more-btn img {
@@ -79,6 +80,26 @@ section {
 
 .condensed {
   width: 80%;
+}
+
+.btn-transparent {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: 150ms;
+}
+
+.btn-transparent:hover,
+.btn-transparent:active {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
 }
 
 #orca-img img {

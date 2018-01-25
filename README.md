@@ -1,1 +1,1 @@
-# uvsd-website
+# uvsd.ca
