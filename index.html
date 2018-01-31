@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/uvsd.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".nav">
+    <div class="header">
+      <div class="header-content">
+        <div class="logo-nav">
+          <img src="res/uvsd-logo-sm.png" alt="" />
+        </div>
+        <nav class="nav">
+          <ul class="nav navbar-nav">
+            <li><a class="js-scroll-trigger" href="#current-proj">Current Projects</a></li>
+            <li><a class="js-scroll-trigger" href="#past-proj">Past Projects</a></li>
+            <li><a class="js-scroll-trigger" href="#team">Team</a></li>
+            <li><a class="js-scroll-trigger" href="#blog">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
     <div class="wrapper">
 
       <div class="landing">
-        <div class="header">
-          <div class="header-content">
-            <img src="res/logo-sm.png" alt="" />
-            <p>&nbsp;UVSD</p>
-          </div>
-        </div>
 
         <div class="logo">
           <img src="res/logo.png" alt="" />
@@ -86,7 +96,7 @@
 
         <br/>
 
-        <section id="current-proj">
+        <section id="past-proj">
           <h1 class="text-center">Past Projects</h1>
           <span class="hr-grad"></span>
           <br/>

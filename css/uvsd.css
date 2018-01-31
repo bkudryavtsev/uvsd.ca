@@ -44,17 +44,57 @@ blockquote {
 }
 
 .header {
-  position: absolute;
+  z-index: 100;
   width: 100%;
   height: 50px;
+  position: fixed;
+  top: 0;
 }
 
 .header-content {
-  padding: 16px 0;
+  position: relative;
+  line-height: 50px;
+}
+
+.nav {
+  width: 420px;
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+}
+
+.navbar-nav {
+  right: 0;
+}
+
+.nav li {
+  padding: 0 4px;
+  display: inline;
+}
+
+.nav li a {
+  padding: 16px 8px 4px 8px;
+  border: 1px solid #fff;
+  background-color: #0F141C;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav li a:hover,
+.nav li a:active {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-nav {
+  position: absolute;
+  display: inline-block;
+  left: 16px;
 }
 
 .header img {
-  width: 32px;
+  width: 75px;
 }
 
 .header p {
@@ -82,7 +122,7 @@ blockquote {
 
 .more-btn {
   position: absolute;
-  bottom: 10%;
+  bottom: 32px;
   left: 50%;
   text-decoration: none;
   color: #fff;
