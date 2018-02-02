@@ -19,4 +19,6 @@
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
+
+  $('body').scrollspy({target:'.nav', offset: 50});
 })(jQuery);

@@ -49,6 +49,8 @@ blockquote {
   height: 50px;
   position: fixed;
   top: 0;
+  background: url(../res/stars.png) repeat top center,
+              radial-gradient(ellipse at bottom,  #0E1219 0%, #0E1119 100%);
 }
 
 .header-content {
@@ -75,7 +77,7 @@ blockquote {
 .nav li a {
   padding: 16px 8px 4px 8px;
   border: 1px solid #fff;
-  background-color: #0F141C;
+  border-radius: 0 0 8px 8px;
   color: #fff;
   text-decoration: none;
 }
