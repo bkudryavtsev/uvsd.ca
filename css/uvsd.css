@@ -50,7 +50,7 @@ blockquote {
   position: fixed;
   top: 0;
   background: url(../res/stars.png) repeat top center,
-              radial-gradient(ellipse at bottom,  #0E1219 0%, #0E1119 100%);
+              linear-gradient(90deg, transparent, #0F141C 70%, #0A0B11);
 }
 
 .header-content {
