@@ -113,13 +113,13 @@ blockquote {
 
 .logo {
   position: absolute;
-  top: 120px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .logo img {
-  width: 500px;
+  width: 420px;
 }
 
 .more-btn {
@@ -188,7 +188,7 @@ blockquote {
 }
 
 #orca-img img {
-  width: 400px;
+  width: 420px;
 }
 
 @keyframes more-btn-anim {
