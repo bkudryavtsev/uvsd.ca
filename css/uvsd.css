@@ -59,7 +59,7 @@ blockquote {
 }
 
 .nav {
-  width: 420px;
+  width: 400px;
   position: absolute;
   display: inline-block;
   right: 10px;
@@ -70,14 +70,11 @@ blockquote {
 }
 
 .nav li {
-  padding: 0 4px;
   display: inline;
 }
 
 .nav li a {
   padding: 16px 8px 4px 8px;
-  border: 1px solid #fff;
-  border-radius: 0 0 8px 8px;
   color: #fff;
   text-decoration: none;
 }
