@@ -92,6 +92,10 @@ blockquote {
   left: 16px;
 }
 
+.logo-nav a {
+  text-decoration: none;
+}
+
 .header img {
   width: 75px;
 }
