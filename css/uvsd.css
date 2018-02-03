@@ -59,7 +59,7 @@ blockquote {
 }
 
 .nav {
-  width: 400px;
+  width: 388px;
   position: absolute;
   display: inline-block;
   right: 10px;
@@ -110,13 +110,13 @@ blockquote {
 
 .logo {
   position: absolute;
-  top: 100px;
+  top: 45%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .logo img {
-  width: 420px;
+  width: 350px;
 }
 
 .more-btn {
