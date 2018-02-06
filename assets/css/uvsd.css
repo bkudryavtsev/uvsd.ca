@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background: url(../res/stars.png) repeat top center,
+  background: url(../img/stars.png) repeat top center,
               radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   background-attachment: fixed;
   background-position: center;
@@ -49,7 +49,7 @@ blockquote {
   height: 50px;
   position: fixed;
   top: 0;
-  background: url(../res/stars.png) repeat top center,
+  background: url(../img/stars.png) repeat top center,
               linear-gradient(90deg, transparent, #0F141C 70%, #0A0B11);
 }
 
