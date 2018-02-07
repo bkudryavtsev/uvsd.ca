@@ -33,7 +33,8 @@ section {
 }
 
 .content-wrapper {
-  background-color: rgba(100, 100, 100, 0.1);
+  background: linear-gradient(0deg, transparent 10%,
+                              rgba(100, 100, 100, 0.1) 90%, transparent);
   width: 100%;
   padding-top: 25px;
   overflow: hidden;
@@ -138,6 +139,11 @@ section {
   width: 350px;
 }
 
+.row {
+  margin: 0 auto;
+  width: 95%;
+}
+
 .col {
   padding: 16px;
 }
@@ -173,14 +179,7 @@ section {
 }
 
 .condensed {
-  width: 80%;
-}
-
-.hr-grad {
-    display: block;
-    border: none;
-    height: 1px;
-    background: radial-gradient(circle at center, #fff 0, transparent 100%);
+  width: 90%;
 }
 
 .btn-transparent {
@@ -208,7 +207,7 @@ section {
 }
 
 #team img {
-  width: 1024px;
+  width: 80%;
   border-radius: 5px;
   border: 2px solid #fff;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
