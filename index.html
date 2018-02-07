@@ -31,13 +31,16 @@ quote: We don't use templates!
 quote_author: Bryce Edwards, Dictator of UVSD
 
 ecosat_title: ECOSat
-ecosat_img: http://via.placeholder.com/512x512
+ecosat_img: https://placebear.com/512/512
 ecosat_text:
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+team_title: Team
+team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-launch.jpg
 ---
 
 <section id="landing">
@@ -54,9 +57,8 @@ ecosat_text:
 <div class="content-wrapper">
   <section id="current-proj">
     <h1 class="text-center">{{ page.sect_current_title }}</h1>
-    <span class="hr-grad"></span>
     <br/>
-    <section id="homathko">
+    <section class="subsection" id="homathko">
       <div class="row">
         <div class="col" align="center">
           <div id="homathko-info" class="condensed">
@@ -74,7 +76,7 @@ ecosat_text:
       </div>
     </section>
 
-    <section id="orcaasat">
+    <section class="subsection" id="orcaasat">
       <div class="row">
         <div class="col" align="center">
           <div id="orca-img">
@@ -93,26 +95,17 @@ ecosat_text:
     </section>
   </section>
 
-  <blockquote class="blockquote text-center">
-    <p>&#34;{{ page.quote }}&#34;</p>
-    <footer class="blockquote-footer"><cite title="Source Title">{{ page.quote_author }}</cite></footer>
-  </blockquote>
-
   <br/>
 
   <section id="past-proj">
     <h1 class="text-center">{{ page.sect_past_title }}</h1>
-    <span class="hr-grad"></span>
     <br/>
-    <section id="ecosat">
+    <section class="subsection" id="ecosat">
       <div class="row">
         <div class="col" align="center">
           <div id="homathko-info" class="condensed">
             <h2>{{ page.ecosat_title }}</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>{{ page.ecosat_text }}</p>
           </div>
           <br />
           <a href="#homathko" class="btn-transparent">learn more</a>
@@ -124,5 +117,16 @@ ecosat_text:
         </div>
       </div>
     </section>
+  </section>
+
+  <section id="team">
+    <h1 class="text-center">{{ page.sect_team_title }}</h1>
+    <br/>
+
+    <div class="row">
+      <div class="col" align="center">
+        <img src="{{ page.team_img }}"/>
+      </div>
+    </div>
   </section>
 </div>
