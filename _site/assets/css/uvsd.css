@@ -70,25 +70,16 @@ section {
 }
 
 .nav {
-  width: 380px;
   position: absolute;
-  display: inline-block;
   right: 10px;
 }
 
-.navbar-nav {
-  right: 0;
-}
-
-.nav li {
-  display: inline;
-}
-
 .nav li a {
-  padding: 16px 8px 4px 8px;
+  padding: 0 8px;
   color: #fff;
   text-decoration: none;
   transition: 100ms;
+  display: inline-block;
 }
 
 .nav li a:hover,
