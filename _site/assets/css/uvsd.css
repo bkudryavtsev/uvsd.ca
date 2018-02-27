@@ -32,9 +32,13 @@ section {
   margin-bottom: 32px;
 }
 
+li {
+  color: #fff;
+}
+
 .content-wrapper {
   background: linear-gradient(0deg, transparent 10%,
-                              rgba(100, 100, 100, 0.1) 90%, transparent);
+                              rgba(100, 100, 100, 0.15) 90%, transparent);
   width: 100%;
   padding-top: 25px;
   overflow: hidden;
@@ -127,7 +131,7 @@ section {
 }
 
 .logo img {
-  width: 350px;
+  width: 380px;
 }
 
 .row {
@@ -191,6 +195,18 @@ section {
   background-color: #fff;
   color: #000;
   text-decoration: none;
+}
+
+.btn-transparent.lg {
+  width: 260px;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  font-size: 1.15em;
+}
+
+#getinvolved {
+  margin-top: 64px;
 }
 
 #orca-img img {

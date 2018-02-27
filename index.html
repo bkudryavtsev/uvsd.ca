@@ -4,9 +4,36 @@ layout: default
 
 img_main_logo: assets/img/UVSD_patch.png
 
+sect_about_title: Who We Are
 sect_current_title: Current Projects
 sect_past_title: Past Projects
 sect_team_title: Team
+sect_contact_title: Contact Us
+
+about_text:
+  The University of Victoria Satellite Design Team (UVSD) is a collective of undergraduate
+  and graduate students from the faculties of Engineering, Social Sciences, and Commerce who are dedicated
+  to the development of cutting edge satellites, and giving students the hands-on experience they need to
+  be competitive in todays aerospace industry.
+  <br/><br/>
+
+  <b>UVSDs mandate is to</b>
+  <ul>
+    <li>Provide hands-on skills to students.</li>
+    <li>Develop cutting edge satellites.</li>
+    <li>Inspire the next generation of thinkers, tinkerers, and doers.</li>
+  </ul>
+
+  <p>While our passion for space technology and satellite development is what brought us together, professional
+  skills development is at the core of the club’s purpose. From marketing and project management to
+  software and design work, UVSD aims to provide students with the opportunity to develop a solid base
+  of technical skills in an environment where they are free to work on the projects they choose and
+  experiment with new ideas.
+
+  At UVSD, we think outside the box about what we can do inside the box.
+  Given the constraints associated with small satellite development, innovation is a
+  prerequisite for mission success, and our approach to solving these difficult problems
+  has lead to designs that are being adopted by student satellite teams across Canada.</p>
 
 homathko_title: Project Homathko
 homathko_img: assets/img/sat1.jpg
@@ -21,26 +48,39 @@ homathko_text:
 orcaasat_title: ORCA<sup>2</sup>SAT
 orcaasat_img: assets/img/ORCAASAT_patch.png
 orcaasat_text:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  ORCAASat (Optical and Radio Calibration of Atmospheric Attenuation CubeSat) is a multi-payload,
+  collaborative effort between teams at the University of Victoria, Simon Fraser University,
+  the University of British Columbia, and Instituto Superior Técnico in Lisbon, Portugal.
+  <br/></br/>
+  Like Homathko, ORCAASat will be used to calibrate ground based star photometers and
+  observatories for atmospheric and instrumental attenuation, additionally, its radio
+  source will be used to calibrate the CHIME (Canadian Hydrogen Intensity Mapping Experiment)
+  radio observatory.
 
 quote: We don't use templates!
 quote_author: Bryce Edwards, Dictator of UVSD
 
-ecosat_title: ECOSat
-ecosat_img: https://placebear.com/512/512
-ecosat_text:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ecosat3_title: ECOSat III
+ecosat3_img: assets/img/ECOSAT3.png
+ecosat3_text:
+  EcoSat III’s primary payload was a hyperspectral camera intended to provide open source hyperspectral images of
+  Canada at 150m spatial resolution. These images could be used to identify various geological or natural features
+  such as deforestation due to pine beetles, receding glaciers, water pollution and forest fires.
+  EcoSat III was designed to have a downlink capability of 10 Mbit/s, had the system been deployed,
+  this would have been a first for cube satellites.
+
+ecosat2_title: ECOSat II
+ecosat2_img: assets/img/ECOSAT2.png
+ecosat2_text:
+  The main goal of EcoSat II was to demonstrate that diamagnetic materials could be used in the
+  control systems of small space craft. EcoSat II’s secondary goal was to test the feasibility of
+  pyrolytic graphite as a lightweight radiation shield for small satellites. EcoSat II won first place
+  in the Canadian Satellite Design Challenge, securing a launch into orbit but has so far not been launched.
 
 team_title: Team
 team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-launch.jpg
+
+contact_title: Contact Us
 ---
 
 <section id="landing">
@@ -48,6 +88,9 @@ team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-lau
 
     <div class="logo">
       <img src="{{ page.img_main_logo }}" alt="" />
+      <div align="center" id="getinvolved">
+        <a href="#contact" class="js-scroll-trigger btn-transparent lg">Get Involved</a>
+      </div>
     </div>
 
     <a class="more-btn js-scroll-trigger" href="#current-proj"><img src="assets/img/double-angle.png" alt=""></a>
@@ -55,6 +98,26 @@ team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-lau
 <section>
 
 <div class="content-wrapper">
+  <section id="about">
+    <h1 class="text-center">{{ page.sect_about_title }}</h1>
+    <br/>
+    <section class="subsection">
+      <div class="row">
+        <div class="col">
+          <p>{{ page.about_text }}</p>
+        </div>
+        <div class="col" align="center">
+          <br/><br/><br/>
+          <img style="width: 400px;" src="assets/img/logo-rh.png"/>
+          <br/><br/><br/>
+          <img style="width: 250px;" src="assets/img/altium.png"/>
+          <br/><br/><br/>
+          <img style="width: 200px;" src="assets/img/nrc.png"/>
+        </div>
+      </div>
+    </section>
+  </section>
+
   <section id="current-proj">
     <h1 class="text-center">{{ page.sect_current_title }}</h1>
     <br/>
@@ -100,20 +163,38 @@ team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-lau
   <section id="past-proj">
     <h1 class="text-center">{{ page.sect_past_title }}</h1>
     <br/>
-    <section class="subsection" id="ecosat">
+    <section class="subsection" id="ecosat3">
       <div class="row">
         <div class="col" align="center">
-          <div id="homathko-info" class="condensed">
-            <h2>{{ page.ecosat_title }}</h2>
-            <p>{{ page.ecosat_text }}</p>
+          <div class="condensed">
+            <h2>{{ page.ecosat3_title }}</h2>
+            <p>{{ page.ecosat3_text }}</p>
           </div>
           <br />
-          <a href="#homathko" class="btn-transparent">learn more</a>
+          <a href="" class="btn-transparent">learn more</a>
         </div>
         <div class="col" align="center">
-          <div id="homathko-img">
-            <img class="round-image" src="{{ page.ecosat_img }}" alt=""></img>
+          <div>
+            <img class="round-image" src="{{ page.ecosat3_img }}" alt=""></img>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subsection" id="ecosat2">
+      <div class="row">
+        <div class="col" align="center">
+          <div>
+            <img class="round-image" src="{{ page.ecosat2_img }}" alt=""></img>
+          </div>
+        </div>
+        <div class="col" align="center">
+          <div class="condensed">
+            <h2>{{ page.ecosat2_title }}</h2>
+            <p>{{ page.ecosat2_text }}</p>
+          </div>
+          <br />
+          <a href="" class="btn-transparent">learn more</a>
         </div>
       </div>
     </section>
@@ -126,6 +207,16 @@ team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-lau
     <div class="row">
       <div class="col" align="center">
         <img src="{{ page.team_img }}"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="text-center">{{ page.sect_contact_title }}</h1>
+    <br/>
+
+    <div class="row">
+      <div class="col" align="center">
       </div>
     </div>
   </section>
