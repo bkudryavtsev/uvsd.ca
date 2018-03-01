@@ -2,7 +2,7 @@
 title: Landing
 layout: default
 
-img_main_logo: assets/img/UVSD_patch.png
+img_main_logo: assets/img/BlackAndWhiteLogo.png
 
 sect_about_title: Who We Are
 sect_current_title: Current Projects
@@ -81,6 +81,7 @@ team_title: Team
 team_img: https://media.glassdoor.com/l/a3/62/df/6d/another-dragon-ready-for-launch.jpg
 
 contact_title: Contact Us
+email: ecosat.uvic@gmail.com
 ---
 
 <section id="landing">
@@ -107,12 +108,13 @@ contact_title: Contact Us
           <p>{{ page.about_text }}</p>
         </div>
         <div class="col" align="center">
-          <br/><br/><br/>
           <img style="width: 400px;" src="assets/img/logo-rh.png"/>
-          <br/><br/><br/>
+          <br/><br/>
           <img style="width: 250px;" src="assets/img/altium.png"/>
           <br/><br/><br/>
           <img style="width: 200px;" src="assets/img/nrc.png"/>
+          <br/><br/>
+          <img style="width: 300px;" src="assets/img/SolidWorks_logo.png"/>
         </div>
       </div>
     </section>
@@ -129,7 +131,7 @@ contact_title: Contact Us
             <p>{{ page.homathko_text }}</p>
           </div>
           <br />
-          <a href="#homathko" class="btn-transparent">learn more</a>
+          <a href="homathko" class="btn-transparent">learn more</a>
         </div>
         <div class="col" align="center">
           <div id="homathko-img">
@@ -151,7 +153,7 @@ contact_title: Contact Us
             <h2>{{ page.orcaasat_title }}</h2>
             <p>{{ page.orcaasat_text }}</p>
               <br />
-              <a href="#orcaasat" class="btn-transparent">learn more</a>
+              <a href="orcaasat" class="btn-transparent">learn more</a>
           </div>
         </div>
       </div>
@@ -171,7 +173,7 @@ contact_title: Contact Us
             <p>{{ page.ecosat3_text }}</p>
           </div>
           <br />
-          <a href="" class="btn-transparent">learn more</a>
+          <a href="ecosat3" class="btn-transparent">learn more</a>
         </div>
         <div class="col" align="center">
           <div>
@@ -194,7 +196,7 @@ contact_title: Contact Us
             <p>{{ page.ecosat2_text }}</p>
           </div>
           <br />
-          <a href="" class="btn-transparent">learn more</a>
+          <a href="ecosat2" class="btn-transparent">learn more</a>
         </div>
       </div>
     </section>
@@ -213,10 +215,18 @@ contact_title: Contact Us
 
   <section id="contact">
     <h1 class="text-center">{{ page.sect_contact_title }}</h1>
-    <br/>
 
     <div class="row">
       <div class="col" align="center">
+        <div class="email">
+          <h3><a href="mailto:{{ page.email }}">{{ page.email }}</a></h3>
+        </div>
+        <br/>
+          <p>Engineering Lab Wing Room A221<br/>
+              University of Victoria</br>
+              3800 Finnerty Road</br>
+              Victoria, BC, Canada</br>
+              V8W 3P6</br>
       </div>
     </div>
   </section>
