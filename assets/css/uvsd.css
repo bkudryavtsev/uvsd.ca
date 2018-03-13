@@ -24,6 +24,10 @@ h2 {
   font-size: 2em;
 }
 
+p {
+  font-size: 1.15em;
+}
+
 blockquote {
   padding: 60px 0;
 }
@@ -219,6 +223,17 @@ li {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 64px;
+}
+
+.sponsors {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.sponsors img {
+  padding: 0 16px;
 }
 
 #getinvolved {
