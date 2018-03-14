@@ -179,7 +179,7 @@ li {
 
 .condensed {
   width: 90%;
-  padding-top: 18px;
+  padding-top: 24px;
 }
 
 .btn-transparent {
@@ -246,7 +246,7 @@ li {
 
 #team img {
   width: 75%;
-  border-radius: 5px;
+  border-radius: 32px;
   border: 2px solid #fff;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
 }
