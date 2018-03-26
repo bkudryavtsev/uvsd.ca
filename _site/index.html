@@ -159,7 +159,14 @@
 
     <div class="row">
       <div class="col" align="center">
-        <h3><a href="mailto:ecosat.uvic@gmail.com" class="btn-transparent email">ecosat.uvic@gmail.com</a></h3>
+        <!-- <h3><a href="mailto:ecosat.uvic@gmail.com" class="btn-transparent email">ecosat.uvic@gmail.com</a></h3> -->
+        <form action="https://formspree.io/ecosat.uvic@gmail.com" method="POST">
+          <div class="form-group contact-form">
+            <textarea class="form-control" type="text" name="name" placeholder="Your message" rows="8" required></textarea>
+            <input class="form-control" type="email" name="_replyto" placeholder="Your email" required>
+            <input class="btn-transparent" type="submit" value="send">
+          </div>
+        </form>
         <br/>
           <p>Engineering Lab Wing Room A221<br/>
               University of Victoria</br>

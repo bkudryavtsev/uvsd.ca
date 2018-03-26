@@ -10,6 +10,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, p {
@@ -193,6 +194,7 @@ li {
   outline: none;
   text-decoration: none;
   transition: 150ms;
+  background: none;
 }
 
 .btn-transparent:hover,
@@ -236,6 +238,20 @@ li {
   padding: 0 16px;
 }
 
+.contact-form {
+  width: 50%;
+}
+
+.contact-form textarea,
+.contact-form input {
+  margin-bottom: 12px;
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
 #getinvolved {
   margin-top: 64px;
 }
@@ -258,4 +274,31 @@ li {
   20% {transform: translateY(-10px);}
   30% {transform: translateY(-5px);}
   100% {transform: translateY(0);}
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-form {
+    width: 95%;
+  }
+
+  .condensed {
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #team img {
+    width: 100%;
+  }
+
+  .about {
+    width: 95%;
+  }
+
+  .sponsors img {
+    padding: 12px 0;
+  }
 }
